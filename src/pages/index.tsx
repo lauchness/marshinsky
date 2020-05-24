@@ -6,8 +6,15 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Marshinskys" />
-    <GuaranteeIcon />
+    <SEO title="Home | Marshinsky's" />
+    <div style={{
+      display:`flex`,
+      flexDirection: `column`,
+      justifyContent: `center`
+    }}>
+      <h2>Pets or whatever</h2>
+      <GuaranteeIcon />
+    </div>
   </Layout>
 )
 

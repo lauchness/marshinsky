@@ -623,7 +623,7 @@ pre tt:after {
 
 main {
   display: flex;
-  height: calc(100% - 7.45rem);
+  flex: 1 0 auto;
   align-items: center;
   justify-content: center;
 }
