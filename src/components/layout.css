@@ -620,3 +620,20 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+main {
+  display: flex;
+  height: calc(100% - 7.45rem);
+  align-items: center;
+  justify-content: center;
+}
+
+main svg {
+  height: 8rem;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
